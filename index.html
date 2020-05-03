@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Multer</title>
+</head>
+
+<body>
+	<h3>Avatar :</h3>
+
+	<form enctype="multipart/form-data" action="/avatar" method="post">
+		<input type="file" name="avatar" />
+		<input type="submit" value="Upload Image" name="submit" />
+	</form>
+
+	<hr>
+	<h3>Photos :</h3>
+
+	<form enctype="multipart/form-data" action="/photos" method="post">
+		<input type="file" name="photos" multiple/>
+		<input type="submit" value="Upload Image" name="submit" />
+	</form>
+	
+</body>
+
+</html>
